@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+.nav-item:hover
+{
+	background-color:white;
+}
+.container-fluid
+{
+	/*background-image: url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?cs=srgb&dl=board-bunch-cooking-349609.jpg&fm=jpg);*/
+	font-family:'Special Elite';
+	height: 600px;
+	display:inline-flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.container-fluid div
+{
+
+	
+	padding:30px;
+
+}
+
+/*HEADING*/
+.box-1
+{
+	position: static;
+	transform:translateX(-0%);
+	color:transparent;
+	
+
+
+
+
+}
+.box-1 h1:before
+{
+	content:attr(data-text);
+	position:absolute;
+	color:#000;
+	overflow:hidden;
+	animation:type 2s ease-out ;
+}
+@keyframes type
+ {
+	0%
+	{
+		width:0;
+	}
+	100%
+	{
+		width:100%;
+	}
+	/*100%
+	{
+		width:0;
+	}*/
+}
+
+.box-2
+{
+	position: static;
+	transform:translateX(-0%);
+	color:transparent;
+	
+
+
+
+
+}
+.box-2 h1:before
+{
+	content:attr(data-text);
+	position:absolute;
+	color:#000;
+	overflow:hidden;
+	animation:type 2s ease-out ;
+}
+@keyframes type
+ {
+	0%
+	{
+		width:0;
+	}
+	100%
+	{
+		width:100%;
+	}
+	/*100%
+	{
+		width:0;
+	}*/
+}
+
+.box-3
+{
+	position: static;
+	transform:translateX(-0%);
+	color:transparent;
+	
+
+
+
+
+}
+.box-3 h1:before
+{
+	content:attr(data-text);
+	position:absolute;
+	color:#000;
+	overflow:hidden;
+	animation:type 2s ease-out ;
+}
+@keyframes type
+ {
+	0%
+	{
+		width:0;
+	}
+	100%
+	{
+		width:100%;
+	}
+	/*100%
+	{
+		width:0;
+	}*/
+}
+
+.box-4
+{
+	position: static;
+	transform:translateX(-0%);
+	color:transparent;
+	
+
+
+
+
+}
+.box-4 h1:before
+{
+	content:attr(data-text);
+	position:absolute;
+	color:#000;
+	overflow:hidden;
+	animation:type 2s ease-out ;
+}
+@keyframes type
+ {
+	0%
+	{
+		width:0;
+	}
+	100%
+	{
+		width:100%;
+	}
+	/*100%
+	{
+		width:0;
+	}*/
+}
