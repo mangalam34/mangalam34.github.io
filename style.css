@@ -5,29 +5,36 @@
 }
 .container-fluid
 {
-	background-image: url(homepage2.jpg);
-	background-position:bottom;
+	background-image: url('11.jpg');
 	background-size: cover;
+
 	font-family:'Special Elite';
-	height: 600px;
+	
+	height: 92%;
+	position: fixed;
 	display:inline-flex;
-	justify-content: space-around;
+	justify-content: left;
 	align-items: center;
+	border:2px solid grey;
+	border-radius: 20px;
 }
 .container-fluid div
 {
 
 	
-	padding:30px;
+	padding:40px;
+
 
 }
 
 /*HEADING*/
 .box-1
 {
+
 	position: static;
 	transform:translateX(-0%);
 	color:transparent;
+	margin-bottom: 100px;
 	
 
 
@@ -38,7 +45,11 @@
 {
 	content:attr(data-text);
 	position:absolute;
-	color:#000;
+	color:white;
+
+
+	font-size: 50px;
+	font-weight: 900;
 	overflow:hidden;
 	animation:type 2s ease-out ;
 }
@@ -63,6 +74,7 @@
 	position: static;
 	transform:translateX(-0%);
 	color:transparent;
+	margin-bottom: 100px;
 	
 
 
@@ -73,8 +85,10 @@
 {
 	content:attr(data-text);
 	position:absolute;
-	color:#000;
+	color:white;
 	overflow:hidden;
+	font-size: 50px;
+	font-weight: 900;
 	animation:type 2s ease-out ;
 }
 @keyframes type
@@ -98,6 +112,8 @@
 	position: static;
 	transform:translateX(-0%);
 	color:transparent;
+	margin-bottom: 100px;
+
 	
 
 
@@ -108,7 +124,9 @@
 {
 	content:attr(data-text);
 	position:absolute;
-	color:#000;
+	color:white;
+	font-size: 50px;
+	font-weight: 900;
 	overflow:hidden;
 	animation:type 2s ease-out ;
 }
@@ -133,6 +151,9 @@
 	position: static;
 	transform:translateX(-0%);
 	color:transparent;
+	margin-left: 30px;
+	margin-bottom: 100px;
+
 	
 
 
@@ -143,7 +164,9 @@
 {
 	content:attr(data-text);
 	position:absolute;
-	color:#000;
+	color:white;
+	font-size: 50px;
+	font-weight: 900;
 	overflow:hidden;
 	animation:type 2s ease-out ;
 }
@@ -161,4 +184,47 @@
 	{
 		width:0;
 	}*/
+}
+
+/*FOOTER*/
+#footer_showcase {
+  position: fixed;
+  margin: 0;
+  display: block;
+  top: 80%;
+  left: 73%;
+  transform: translate(-85%, -73%);
+  /*margin: 0 80px;*/
+  width: 60vw;
+  height: 5%;
+  text-align: center;
+  color: white;
+
+  /*background: #272727;*/
+  /*opacity: 0.5;*/
+  /*border-radius: 5px;*/
+  /*box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);*/
+}
+
+.social_profile {
+  width: 40px;
+  margin: 10px 20px;
+  -webkit-filter: white(1);
+    filter: white(1);
+
+    transition: 0.3s;
+}
+
+.social_profile:hover {
+  -webkit-filter: initial;
+    filter: initial;
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+
+#footer_showcase p{
+  color: white;
+  font-weight: 900;
+  font-size:20px;
+  font-family: 'Bahnschrift'
 }
